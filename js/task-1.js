@@ -1,6 +1,8 @@
 'use strict';
+
 function isEnoughCapacity(products, containerSize) {
   let quantityProducts = 0;
+
   for (const value of Object.values(products)) {
     quantityProducts += value;
   }
